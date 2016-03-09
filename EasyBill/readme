@@ -1,0 +1,28 @@
+client--->>>>server  <#REGISTER#>
+server--->>>>client  <#REG_SUCCESS#>nickName + "|" + userId
+
+client--->>>>server  <#LOGIN#>	
+server--->>>>client  <#LOGIN_SUCCESS#>
+
+client--->>>>server  <#FINDPASSWORD#>
+server--->>>>client  <#FINDPASSWORDSUCCESS#>
+
+client--->>>>server  <#FORGETPASSWORD#>
+server--->>>>client  <#FINDPASSWORDSUCCESS#>
+
+client--->>>>server  <#MOFIFYUSERINFO#>
+server--->>>>client  <#MOFIFYUSERINFOSUCCESS>#
+
+client--->>>>server  <#USER_LOGOUT#>
+
+
+
+
+
+server--->>>>client
+server--->>>>client
+server--->>>>client
+server--->>>>client
+server--->>>>client
+server--->>>>client
+server--->>>>client
